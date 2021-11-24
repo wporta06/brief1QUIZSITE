@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    /* font-family: sans-serif; */
+    /* padding: 2px; */
+}
+
+
+/* page starquitez bg color */
+
+#body3 {
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%, rgb(14 177 255) 0%, rgb(20 7 171) 97.5%);
+    color: white;
+}
+
+#body2 {
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%, rgb(0, 0, 0) 0%, rgba(7, 3, 53, 1) 97.5%);
+    color: white;
+}
+
+
+/* page index bg color */
+
+body {
+    background-image: radial-gradient( circle 610px at 5.2% 51.6%, rgba(5, 8, 114, 1) 0%, rgba(7, 3, 53, 1) 97.5%);
+    color: white;
+}
+
+
+/* btns size */
+
+.sltbtn {
+    width: 35em;
+    margin: 2em;
+}
+
+.sltbtn2 {
+    width: 35em;
+    margin: .5em;
+}
+
+.qtest {
+    text-align: left;
+    margin-left: 5em;
+}
+
+
+/* navebar */
+
+header {
+    /* margin-bottom: 100px; */
+    background-color: #000467;
+    color: white;
+    border-radius: 0 0 70px 70px;
+}
+
+.header2 {
+    margin-bottom: 100px;
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 0 0 70px 70px;
+}
+
+
+/* progress bar */
+
+.progress {
+    margin: 5em;
+}
+
+.wrongbg {
+    background-color: red;
+}
+
+.backscreen {
+    background-color: #00169b;
+    bottom: 1em;
+    top: 4em;
+    position: absolute;
+    left: 1em;
+    right: 1em;
+    border-radius: 1em;
+    transform: translate(-110vw);
+    transition: all 1s;
+    color: white;
+}
+
+
+/* quiz scoor popup */
+
+.xclose {
+    position: fixed;
+    right: 2em;
+    top: 2em;
+    cursor: pointer;
+}
+
+.xclose:hover {
+    color: rgb(255, 217, 0);
+    font-weight: bold;
+}
+
+.userinfo {
+    background-color: rgb(0 138 185 / 26%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.userinfo img {
+    width: 75px;
+    height: auto;
+    margin: 4px 0 1px 0;
+    border-radius: 1em;
+}
+
+
+/* ================== */
+
+.scoor {
+    position: relative;
+    top: -8vw;
+    right: -53vw;
+}
+
+.correctanswer {
+    background-color: "green";
+}
+
+.wronganswer {
+    background-color: "red";
+}
+
+
+/* ================== */
+
+
+/* for title animation */
+
+.title {
+    animation: myanimation 0.5s 1;
+}
+
+.title2 {
+    animation: myanimation2 0.7s 1;
+}
+
+.title3 {
+    animation: myanimation3 1s 1;
+    border-radius: 2em 0;
+}
+
+@keyframes myanimation {
+    0% {
+        transform: translate(500vw, 0);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes myanimation2 {
+    0% {
+        transform: translate(0, -500vw);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes myanimation3 {
+    0% {
+        transform: translate(-500vw, 0);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+h2,
+h1 {
+    /* font-size: 40px; */
+    text-align: center;
+    /* margin-top: 100px; */
+    /* margin-bottom: 40px; */
+}
